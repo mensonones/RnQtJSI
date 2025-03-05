@@ -9,6 +9,14 @@
     "start": "react-native start",
     "test": "jest"
   },
+  "codegenConfig": {
+     "name": "AppSpecs",
+     "type": "modules",
+     "jsSrcsDir": "specs",
+     "android": {
+       "javaPackageName": "com.rnqtjsi.specs"
+     }
+   },
   "dependencies": {
     "react": "19.0.0",
     "react-native": "0.78.0"
